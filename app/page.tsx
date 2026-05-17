@@ -49,7 +49,7 @@ function getMBTIType(axes: any) {
   return `${IE >= 0 ? "I" : "E"}${NS >= 0 ? "N" : "S"}${TF >= 0 ? "T" : "F"}${JP >= 0 ? "J" : "P"}`;
 }
 
-function getMBTIGroup(mbtiType) {
+function getMBTIGroup(mbtiType: any) {
   for (const [key, group] of Object.entries(MBTI_GROUPS)) {
     if (group.types.includes(mbtiType)) return { key, ...group };
   }
