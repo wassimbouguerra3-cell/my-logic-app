@@ -44,7 +44,7 @@ const MBTI_GROUPS = {
   },
 };
 
-function getMBTIType(axes) {
+function getMBTIType(axes: any) {
   const { IE, NS, TF, JP } = axes;
   return `${IE >= 0 ? "I" : "E"}${NS >= 0 ? "N" : "S"}${TF >= 0 ? "T" : "F"}${JP >= 0 ? "J" : "P"}`;
 }
