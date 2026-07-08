@@ -38,7 +38,7 @@ This project represents a fusion of my previous learning stages:
 5. Discover your personality profile at the end.
 
 ---
-*Built with passion by [Your Name]*
+*Built with passion by wassim bouguerra*
 
 
 
